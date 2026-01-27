@@ -1,0 +1,46 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =========================
+# Data outputs (regenerable)
+# =========================
+data/processed/
+data/results/
+
+# =========================
+# Spark / Hadoop
+# =========================
+spark-warehouse/
+metastore_db/
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
